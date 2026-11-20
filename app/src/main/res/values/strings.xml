@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Frigate</string>
+    <string name="shortcut_server_short">Server</string>
+    <string name="shortcut_server_long">Server settings</string>
+
+    <string name="setup_title">Frigate server</string>
+    <string name="setup_body">The address you open Frigate at in a browser, including the port.</string>
+    <string name="setup_hint">https://192.168.1.10:8971</string>
+    <string name="setup_connect">Connect</string>
+    <string name="setup_forget_cert">Forget trusted certificate</string>
+    <string name="setup_sign_out">Sign out and clear site data</string>
+    <string name="setup_invalid">Enter an address like https://192.168.1.10:8971</string>
+    <string name="setup_cert_forgotten">Trusted certificate forgotten</string>
+    <string name="setup_signed_out">Signed out and site data cleared</string>
+    <string name="setup_trusted_fmt">Trusted certificate: %1$s…</string>
+
+    <string name="error_title">Can\'t reach Frigate</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_change_server">Change server</string>
+    <string name="error_cert_rejected">Certificate not trusted</string>
+
+    <string name="cert_title_new">Trust this certificate?</string>
+    <string name="cert_title_changed">Certificate changed</string>
+    <string name="cert_body_new">%1$s uses a certificate that Android doesn\'t recognise. Frigate makes its own self-signed certificate, so this is expected the first time you connect.\n\nSHA-256\n%2$s\n\nIssued to: %3$s\nValid until: %4$s</string>
+    <string name="cert_body_changed">%1$s now shows a different certificate from the one you trusted.\n\nThis is expected after the Frigate container was recreated (an update, for example), because Frigate generates a new self-signed certificate. If nothing changed on the server, don\'t trust it.\n\nNew SHA-256\n%2$s\n\nIssued to: %3$s\nValid until: %4$s</string>
+    <string name="cert_trust">Trust</string>
+    <string name="cert_cancel">Cancel</string>
+
+    <string name="update_title">Update available</string>
+    <string name="update_body">Version %1$s is ready (this phone has %2$s).\n\nThe app closes when the update finishes. Open it again afterwards.</string>
+    <string name="update_now">Update</string>
+    <string name="update_later">Later</string>
+    <string name="update_downloading">Downloading %1$s…</string>
+    <string name="update_failed">Update failed: %1$s</string>
+    <string name="update_permission_title">Allow updates</string>
+    <string name="update_permission_body">Android needs your OK once before Frigate can update itself.\n\nTap Open settings, turn on \"Allow from this source\", then go back.</string>
+    <string name="update_permission_open">Open settings</string>
+    <string name="update_needs_permission">Updates need \"Allow from this source\" turned on for Frigate.</string>
+
+    <string name="download_started">Downloading %1$s…</string>
+    <string name="download_done">Saved %1$s to Downloads</string>
+    <string name="download_failed">Download failed: %1$s</string>
+</resources>

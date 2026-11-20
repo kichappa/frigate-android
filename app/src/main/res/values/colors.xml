@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Frigate theme-default.css, light (:root) -->
+    <color name="bg">#FFFFFF</color>
+    <color name="fg">#020817</color>
+    <color name="muted_fg">#70767F</color>
+    <color name="card">#FFFFFF</color>
+    <color name="secondary">#EEF1F4</color>
+    <color name="secondary_fg">#4C5567</color>
+    <color name="input_border">#D9D9D9</color>
+    <color name="destructive">#EF4444</color>
+    <!-- "selected": hsl(228 89% 63%), same in both themes -->
+    <color name="selected">#4D6EF5</color>
+    <color name="logo_bg">#FFFFFF</color>
+    <color name="logo_fg">#000000</color>
+</resources>

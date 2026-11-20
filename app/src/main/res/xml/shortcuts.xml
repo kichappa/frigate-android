@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_server"
+        android:shortcutId="server"
+        android:shortcutLongLabel="@string/shortcut_server_long"
+        android:shortcutShortLabel="@string/shortcut_server_short">
+        <intent
+            android:action="app.frigate.shell.SERVER_SETTINGS"
+            android:targetClass="app.frigate.shell.MainActivity"
+            android:targetPackage="app.frigate.shell" />
+    </shortcut>
+</shortcuts>
